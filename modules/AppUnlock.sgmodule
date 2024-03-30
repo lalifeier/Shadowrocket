@@ -21,18 +21,23 @@ BoxJs = type=http-request, pattern=^https?:\/\/boxjs\.(com|net), script-path=htt
 # ✅ SUB-STORE
 # hostname = sub.store
 
-sub-store-1.min = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, max-size=-1, timeout=60
-
-sub-store-0.min = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, max-size=-1, timeout=60
+Sub-Store Core = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, max-size=-1, timeout=60
+Sub-Store Simple = type=http-request, pattern=^https?:\/\/sub\.store, script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, max-size=-1, timeout=60
 
 # ✅ AdGuard
 # hostname = mobile-api.adguard.org
+
 AdGuard = type=http-response, pattern=^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/(.*?), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js, requires-body=true, max-size=0
+
+# ✅ 百度网盘 
+# hostname = pan.baidu.com
+
+bdcloud = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js, requires-body=true, max-size=-1, timeout=60
 
 # ✅ 彩云天气
 # hostname = biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn
 
-彩云天气 = type=http-response, pattern=^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$, script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/caiyun.js, requires-body=true, max-size=-1, timeout=60
+彩云天气 = type=http-response, pattern=^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$, script-path=https://raw.githubusercontent.com/ly661/WeiRen0-Scripts/main/cytq.js, requires-body=true, max-size=-1, timeout=60
 
 ✅ 美图秀秀vip
 # hostname = h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com
@@ -45,8 +50,8 @@ AdGuard = type=http-response, pattern=^https?:\/\/mobile-api\.adguard\.org\/api\
 # ✅ Spotify(>=iOS15)
 # 部分解锁premium, 音质不能设置为超高
 # hostname = spclient.wg.spotify.com
-spotify-json = type=http-request, pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 
+spotify-json = type=http-request, pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 spotify-proto = type=http-response, pattern=^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$, script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js, requires-body=true, binary-body-mode=true, max-size=0, script-update-interval=0
 
 # ✅ TopWidgets
@@ -62,4 +67,4 @@ xmind = type=http-response, pattern=https:\/\/www\.xmind\.cn\/\_res\/devices, sc
 UnblockURLinWeChat = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% boxjs.com, boxjs.net, sub.store, mobile-api.adguard.org, biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, spclient.wg.spotify.com, top-widgets-api.xiaozujian.com, www.xmind.cn, www.xmind.net, weixin110.qq.com, security.wechat.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+hostname = %APPEND% boxjs.com, boxjs.net, sub.store, mobile-api.adguard.org, pan.baidu.com, biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, spclient.wg.spotify.com, top-widgets-api.xiaozujian.com, www.xmind.cn, www.xmind.net, weixin110.qq.com, security.wechat.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
