@@ -37,7 +37,7 @@ bdcloud = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/
 # ✅ 彩云天气
 # hostname = biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn
 
-彩云天气 = type=http-response, pattern=^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$, script-path=https://raw.githubusercontent.com/ly661/WeiRen0-Scripts/main/cytq.js, requires-body=true, max-size=-1, timeout=60
+彩云天气 = type=http-response, pattern=^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$, script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/caiyun.js, requires-body=true, max-size=-1, timeout=60
 
 ✅ 美图秀秀vip
 # hostname = h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com
