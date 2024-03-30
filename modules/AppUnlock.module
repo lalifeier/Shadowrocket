@@ -1,9 +1,7 @@
-#############################################
 #!name=AppUnlock
-#!desc=App解锁
+#!desc=App 解锁
 #!author=lalifeier
 # 使用声明：此脚本仅供学习与交流，请勿转载与贩卖！
-#############################################
 
 [URL Rewrite]
 # ✅ TikTok 解锁台灣地区
@@ -16,11 +14,11 @@
 [Map Local]
 
 [Script]
-# ✅BoxJS
+# ✅ BoxJS
 # hostname = boxjs.com, boxjs.net
 BoxJs = type=http-request, pattern=^https?:\/\/boxjs\.(com|net), script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, max-size=-1, timeout=60
 
-# ✅SUB-STORE
+# ✅ SUB-STORE
 # hostname = sub.store
 
 sub-store-1.min = type=http-request, pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, max-size=-1, timeout=60
