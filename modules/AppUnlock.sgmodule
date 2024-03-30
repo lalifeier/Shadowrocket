@@ -208,6 +208,10 @@ spotify-proto = type=http-response, pattern=^https?:\/\/spclient\.wg\.spotify\.c
 # hostname = top-widgets-api.xiaozujian.com
 widgets = type=http-response, pattern=^https:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js, requires-body=true, max-size=-1, timeout=60
 
+# ✅ Testflight区域限制+共享     
+# hostname = testflight.apple.com
+# TestFlightAccount = type=http-request, pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js, requires-body=true, max-size=-1, timeout=60
+
 # ✅ XMind
 # hostname = www.xmind.cn, www.xmind.net
 xmind = type=http-response, pattern=https:\/\/www\.xmind\.cn\/\_res\/devices, script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/xmind.js, requires-body=true, max-size=-1, timeout=60
