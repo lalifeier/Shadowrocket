@@ -70,15 +70,10 @@ bdcloud = type=http-response, pattern=^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/
 
 彩云天气 = type=http-response, pattern=^http[s]?:\/\/biz\.(caiyunapp|cyapi)\.(com|cn)\/v2\/user.*$, script-path=https://raw.githubusercontent.com/zwf234/rules/master/js/caiyun.js, requires-body=true, max-size=-1, timeout=60
 
-✅ 美图秀秀vip
+✅ 美图秀秀
 # hostname = h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com
 
-美图秀秀vip = type=http-response, pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js, requires-body=true, max-size=-1, timeout=60
-
-# ✅ 美图秀秀粉钻
-# hostname = api.xiuxiu.meitu.com
-
-美图秀秀粉钻 = type=http-response, pattern=^https:\/\/api\.xiuxiu\.meitu\.com\/v1, script-path=https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js, requires-body=true, max-size=-1, timeout=60
+# 美图秀秀 = type=http-response, pattern=^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/, script-path=https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js, requires-body=true, max-size=-1, timeout=60
 
 # ✅ Relens大光圈单反相机
 # hostname = buy.itunes.apple.com
@@ -105,7 +100,7 @@ widgets = type=http-response, pattern=^https:\/\/top-widgets-api\.xiaozujian\.co
 # ✅ Varlens 微单相机
 # hostname = mid.zineapi.com
 
-Varlens = type=http-response, pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js, requires-body=true, max-size=-1, timeout=60
+# Varlens = type=http-response, pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js, requires-body=true, max-size=-1, timeout=60
 
 # ✅ WPS
 # hostname = *account.wps.cn, *account.wps.com
@@ -122,10 +117,15 @@ xmind = type=http-response, pattern=https:\/\/www\.xmind\.cn\/\_res\/devices, sc
 
 UnblockURLinWeChat = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, max-size=-1, timeout=60
 
+# ✅ 养基宝
+# hostname = *.yangjibao.com
+
+# yjb = type=http-response, pattern=^https?:\/\/.*\.yangjibao\.com, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/yjb.js, requires-body=true, max-size=-1, timeout=60
+
 # ✅ 最美证件照
 # hostname = fufei.fengyunsoft.cn
 
 zmzjz = type=http-response, pattern=^https:\/\/fufei\.fengyunsoft\.cn\/api\/client\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zmzjz.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% boxjs.com, boxjs.net, sub.store, buy.itunes.apple.com, api.revenuecat.com, mobile-api.adguard.org, mb3admin.com, pan.baidu.com, biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, spclient.wg.spotify.com, top-widgets-api.xiaozujian.com, mid.zineapi.com, *account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, weixin110.qq.com, security.wechat.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, fufei.fengyunsoft.cn
+hostname = %APPEND% boxjs.com, boxjs.net, sub.store, buy.itunes.apple.com, api.revenuecat.com, mobile-api.adguard.org, mb3admin.com, pan.baidu.com, biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, spclient.wg.spotify.com, top-widgets-api.xiaozujian.com, mid.zineapi.com, *account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, weixin110.qq.com, security.wechat.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.yangjibao.com, fufei.fengyunsoft.cn
