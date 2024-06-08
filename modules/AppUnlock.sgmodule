@@ -111,7 +111,6 @@ widgets = type=http-response, pattern=^https:\/\/top-widgets-api\.xiaozujian\.co
 # hostname = mid.zineapi.com
 
 # Varlens = type=http-response, pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js, requires-body=true, max-size=-1, timeout=60
-Varlens = type=http-response, pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/v3\/, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/Varlens.js, requires-body=true, max-size=-1, timeout=60
 
 # ✅ WPS
 # hostname = *account.wps.cn, *account.wps.com
