@@ -50,6 +50,11 @@ Revenuecat清缓存 = type=http-request, pattern=^https:\/\/api\.revenuecat\.com
 
 AdGuard = type=http-response, pattern=^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/(.*?), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js, requires-body=true, max-size=0
 
+# ✅ 爱企查
+# hostname = aiqicha.baidu.com
+
+# aiqicha = type=http-response, pattern=^https:\//aiqicha.baidu.com\/usercenter\/getvipinfoajax, script-path=https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/aiqicha.js, requires-body=true, max-size=-1, timeout=60
+
 # ✅ Emby
 # hostname = mb3admin.com
 
@@ -97,6 +102,16 @@ widgets = type=http-response, pattern=^https:\/\/top-widgets-api\.xiaozujian\.co
 
 # TestFlightAccount = type=http-request, pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js, requires-body=true, max-size=-1, timeout=60
 
+# ✅ Varlens
+# hostname = mid.zineapi.com
+
+Varlens = type=http-response , pattern=^https:\/\/mid\.zineapi\.com\/@varlens\/api\/user\/info\/, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Varlens.js, requires-body=true, max-size=-1, timeout=60
+
+# ✅ WPS
+# hostname = *account.wps.cn, *account.wps.com
+
+WPS = type=http-response, pattern=^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, requires-body=true, max-size=-1, timeout=60
+
 # ✅ XMind
 # hostname = www.xmind.cn, www.xmind.net
 
@@ -107,5 +122,10 @@ xmind = type=http-response, pattern=https:\/\/www\.xmind\.cn\/\_res\/devices, sc
 
 UnblockURLinWeChat = type=http-response, pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?, script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, max-size=-1, timeout=60
 
+# ✅ 最美证件照
+# hostname = fufei.fengyunsoft.cn
+
+zmzjz = type=http-response, pattern=^https:\/\/fufei\.fengyunsoft\.cn\/api\/client\/info, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zmzjz.js, requires-body=true, max-size=-1, timeout=60
+
 [MITM]
-hostname = %APPEND% boxjs.com, boxjs.net, sub.store, buy.itunes.apple.com, api.revenuecat.com, mobile-api.adguard.org, mb3admin.com, pan.baidu.com, biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, spclient.wg.spotify.com, top-widgets-api.xiaozujian.com, www.xmind.cn, www.xmind.net, weixin110.qq.com, security.wechat.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
+hostname = %APPEND% boxjs.com, boxjs.net, sub.store, buy.itunes.apple.com, api.revenuecat.com, mobile-api.adguard.org, mb3admin.com, pan.baidu.com, biz.caiyunapp.com, biz.cyapi.com, biz.caiyunapp.cn, biz.cyapi.cn, h5.xiuxiu.meitu.com, api.xiuxiu.meitu.com, spclient.wg.spotify.com, top-widgets-api.xiaozujian.com, mid.zineapi.com, *account.wps.cn, *account.wps.com, www.xmind.cn, www.xmind.net, weixin110.qq.com, security.wechat.com, *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, fufei.fengyunsoft.cn
