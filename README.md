@@ -18,14 +18,14 @@
 
 | 功能 | 链接 | Boxjs 导入 | 作者 |
 | --- | --- | --- | --- |
-| 懒人会员解锁合集 | [AppUnlock.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AppUnlock.sgmodule) | [AppUnlock.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AppUnlock.sgmodule) | @lalifeier |
+| 自用合集 | [AppUnlock.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AppUnlock.sgmodule) | [AppUnlock.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AppUnlock.sgmodule) | @lalifeier |
 | 墨鱼合集 | [ForOwnUse.conf](https://raw.githubusercontent.com/ddgksf2013/dev/master/ForOwnUse.conf) | - | @ddgksf2013 |
 | iTunes 合集 | [iTunes.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/iTunes.sgmodule) | [iTunes.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/iTunes.sgmodule) | @chxm1023 |
 | Revenuecat 合集 | [revenuecat.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/revenuecat.sgmodule) | [revenuecat.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/revenuecat.sgmodule) | @chxm1023 |
 | Spotify | [spotify.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/spotify.sgmodule) | [spotify.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/spotify.sgmodule) | @app2smile |
 | Emby | [emby.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/emby.sgmodule) | [emby.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/emby.sgmodule) | @RuCu6 |
 
-### 🚫 广告淨化
+### 🚫 广告净化
 
 | 功能 | 链接 | Boxjs 导入 | 作者 |
 | --- | --- | --- | --- |
@@ -42,7 +42,7 @@
 | Youtube 去广告、画中画、后台回放 | [youtube.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AdBlockLite.sgmodule) | [youtube.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AdBlockLite.sgmodule) | @Maasea |
 
 
-### 应用增强
+### 🔧 应用增强
 | 功能 | 链接 | Boxjs 导入 | 作者 |
 | --- | --- | --- | --- |
 | TikTok 解锁 (日本) | [jp.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/tiktok/jp.sgmodule) | [jp.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/tiktok/jp.sgmodule) | @Semporia |
@@ -50,7 +50,7 @@
 | TikTok 解锁 (台灣) | [tw.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/tiktok/tw.sgmodule) | [tw.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/tiktok/tw.sgmodule) | @Semporia |
 | TikTok 解锁 (美国) | [us.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/tiktok/us.sgmodule) | [us.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/tiktok/us.sgmodule) | @Semporia |
 
-### 网页优化
+### 🌐 网页优化
 
 | 功能 | 链接 | Boxjs 导入 | 作者 |
 | --- | --- | --- | --- |
