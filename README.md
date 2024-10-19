@@ -39,6 +39,7 @@
 | 微博 | [weibo.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/weibo.sgmodule) | [weibo.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/weibo.sgmodule) | @RuCu6,@zmqcherish |
 | 小红书 | [xiaohongshu.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/xiaohongshu.sgmodule) | [xiaohongshu.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/xiaohongshu.sgmodule) | @RuCu6,@fmz200 |
 | 知乎 | [zhihu.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/zhihu.sgmodule) | [zhihu.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/zhihu.sgmodule) | @app2smile |
+| 国内视频平台（爱奇艺，芒果TV，优酷，腾讯视频） | [china_media.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/china_media.sgmodule) | [china_media.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/china_media.sgmodule) | @RuCu6 |
 | Youtube 去广告、画中画、后台回放 | [youtube.sgmodule](https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AdBlockLite.sgmodule) | [youtube.sgmodule](https://api.boxjs.app/shadowrocket/install?module=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/modules/AdBlockLite.sgmodule) | @Maasea |
 
 
