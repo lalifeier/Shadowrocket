@@ -20,10 +20,10 @@
 ^https:\/\/yongche\.baidu\.com\/goorder\/passenger\/baseinfo - reject-dict
 
 [Script]
-map = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/dl\/s\/UpdateInfo\.php\?, script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/RuCu6/Scripts/baidu/map.js, requires-body=true, max-size=-1, timeout=60
+map = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/client\/imap\/dl\/s\/UpdateInfo\.php\?, script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/QuanX/Scripts/baidu/map.js, requires-body=true, max-size=-1, timeout=60
 
 # 我的页面
-map = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/mine\/page\?, script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/RuCu6/Scripts/baidu/map.js, requires-body=true, max-size=-1, timeout=60
+map = type=http-response, pattern=^https:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/mine\/page\?, script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/QuanX/Scripts/baidu/map.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% newclient.map.baidu.com, yongche.baidu.com

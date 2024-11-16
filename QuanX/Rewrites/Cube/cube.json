@@ -1,0 +1,8 @@
+{
+  "filter_remote": [
+    "https://raw.githubusercontent.com/Jasonaax/QuantumultX/refs/heads/main/QuanX_RuCu6/Rules/MyBlockAds.list, tag=MyBlockAds, force-policy=reject, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true"
+  ],
+  "rewrite_remote": [
+    "https://raw.githubusercontent.com/Jasonaax/QuantumultX/refs/heads/main/QuanX_RuCu6/Rewrites/Cube/amap.snippet, tag=amap, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true"
+  ]
+}
