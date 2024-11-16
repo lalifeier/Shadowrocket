@@ -5,22 +5,22 @@
 
 [Script]
 # 播放解锁
-unlock = type=http-response, pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/emby/unlock.js, requires-body=true, max-size=-1, timeout=60
+unlock = type=http-response, pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice, script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/RuCu6/Scripts/emby/unlock.js, requires-body=true, max-size=-1, timeout=60
 
 # 解决QX抓取某些公益服该请求乱码问题
 replaceHeader = type=http-request, pattern=\/Users\/\w{32}\/Items\/\d+\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/replace-header.js, timeout=30, argument=(%5Cr%5Cn)Accept-Encoding%3A.%2B-%3E%24Accept-Encoding%3A%20gzip%2C%20deflate%2C%20br
 
 # 添加外部播放器连接
-embyPlus = type=http-response, pattern=\/Users\/\w{32}\/Items\/\d+\?, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/emby/embyPlus.js, requires-body=true, max-size=-1, timeout=60
+embyPlus = type=http-response, pattern=\/Users\/\w{32}\/Items\/\d+\?, script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/RuCu6/Scripts/emby/embyPlus.js, requires-body=true, max-size=-1, timeout=60
 
 # 打开外部播放器
-embyPlus = type=http-request, pattern=\/plugin\/scheme, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/emby/embyPlus.js, timeout=60
+embyPlus = type=http-request, pattern=\/plugin\/scheme, script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/RuCu6/Scripts/emby/embyPlus.js, timeout=60
 
 # 资源路径伪静态
-embyPlus = type=http-request, pattern=(\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/emby/embyPlus.js, timeout=60
+embyPlus = type=http-request, pattern=(\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename), script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/RuCu6/Scripts/emby/embyPlus.js, timeout=60
 
 # 下载文件重命名
-downloadFileRename2 = type=http-response, pattern=(\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename), script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/emby/downloadFileRename2.js, timeout=60
+downloadFileRename2 = type=http-response, pattern=(\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename), script-path=https://raw.githubusercontent.com/lalifeier/Shadowrocket/main/RuCu6/Scripts/emby/downloadFileRename2.js, timeout=60
 
 [MITM]
 hostname = %APPEND% *.mb3admin.com, *.emby.wtf, *.plusmedia.site, *.xeton.dev, *.jmsooo.com
